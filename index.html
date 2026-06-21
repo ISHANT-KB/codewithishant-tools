@@ -4,55 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>100% Free Calculators, Converters & Dev Tools Suite</title>
-    
+
     <script>
-      (function() {
+      (function () {
         try {
-          var saved = localStorage.getItem('theme');
+          var saved = localStorage.getItem("theme");
           var isDark = false;
-          if (saved === 'dark') {
+          if (saved === "dark") {
             isDark = true;
-          } else if (saved === 'light') {
+          } else if (saved === "light") {
             isDark = false;
           } else {
-            isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
           }
           if (isDark) {
-            document.documentElement.classList.add('dark');
+            document.documentElement.classList.add("dark");
           } else {
-            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.remove("dark");
           }
         } catch (e) {}
       })();
     </script>
-    
+
     <!-- Primary SEO Metadata -->
-    <meta name="description" content="Access free, high performance, offline-friendly productivity utilities including dynamic calculators, formatters, mass/length converters, and SEO sitemap indexing tools." />
-    <meta name="keywords" content="free tools, online calculators, developer tools, unit converters, tax EMI calculator, offline apps" />
-    
+    <meta
+      name="description"
+      content="Access free, high performance, offline-friendly productivity utilities including dynamic calculators, formatters, mass/length converters, and SEO sitemap indexing tools."
+    />
+    <meta
+      name="keywords"
+      content="free tools, online calculators, developer tools, unit converters, tax EMI calculator, offline apps"
+    />
+    <meta
+      name="google-site-verification"
+      content="NaE98muSCdUiKo_tzcULiC6sUowCSGgy4kSSMNB31mI"
+    />
+
     <!-- OpenGraph / Facebook Social Sharing Tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="100% Free Calculators, Converters & Dev Tools Suite" />
-    <meta property="og:description" content="Access free, high performance, offline-friendly productivity utilities including dynamic calculators, formatters, mass/length converters, and SEO sitemap indexing tools." />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200" />
+    <meta
+      property="og:title"
+      content="100% Free Calculators, Converters & Dev Tools Suite"
+    />
+    <meta
+      property="og:description"
+      content="Access free, high performance, offline-friendly productivity utilities including dynamic calculators, formatters, mass/length converters, and SEO sitemap indexing tools."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200"
+    />
     <meta property="og:url" content="https://utilityhub.freeoffline.tools/" />
-    
+
     <!-- Twitter Social CTR Optimization -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="100% Free Calculators, Converters & Dev Tools Suite" />
-    <meta name="twitter:description" content="Access free, high performance, offline-friendly productivity utilities including dynamic calculators, formatters, mass/length converters, and SEO sitemap indexing tools." />
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200" />
+    <meta
+      name="twitter:title"
+      content="100% Free Calculators, Converters & Dev Tools Suite"
+    />
+    <meta
+      name="twitter:description"
+      content="Access free, high performance, offline-friendly productivity utilities including dynamic calculators, formatters, mass/length converters, and SEO sitemap indexing tools."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200"
+    />
 
     <!-- Speed up font discovery by preconnecting to Google Fonts CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
+
     <!-- Load required weights only with font-display: swap to prevent render-blocking and layout shifts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
