@@ -41,7 +41,6 @@ Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS** for optimal
 - **Icons:** Lucide React
 - **Build Tool:** Vite
 - **Backend:** Express.js (optional)
-- **API:** Google Gemini API
 - **Animation:** Motion
 
 ---
@@ -68,16 +67,8 @@ Built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS** for optimal
    npm install
    ```
 
-3. **Set up environment variables**
+3. **Start the development server**
 
-   ```bash
-   # Create .env.local file
-   echo "VITE_GEMINI_API_KEY=your_api_key_here" > .env.local
-   ```
-
-   - Get your Gemini API key from [Google AI Studio](https://ai.google.dev)
-
-4. **Start the development server**
    ```bash
    npm run dev
    ```
