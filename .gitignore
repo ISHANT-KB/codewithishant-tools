@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.iml
+.project
+.classpath
+.c9/
+*.sublime-workspace
+.sublime-project
+
+# OS specific
+Thumbs.db
+.windows-build-tools
+.cache/
+.yarn/cache/
+.yarn/unplugged/
+
+# Vite
+.vite/
+
+# Misc
+.eslintcache
+*.pot
+*.pot.bak
+dist-ssr/
+coverage/
+.nyc_output/
+
+# Local testing
+.test-cache/
+*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Compiled files
+*.class
+*.jar
+*.exe
+
+# TypeScript
+*.tsbuildinfo
+
+# Server/runtime
+server.js
+server.js.map

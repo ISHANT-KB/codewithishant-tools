@@ -1,0 +1,8 @@
+{
+  "name": "All-in-One Utility Tools",
+  "description": "A comprehensive suite of production-ready free calculators, unit converters, developer tools, text utilities, and SEO tools combined with educational guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
