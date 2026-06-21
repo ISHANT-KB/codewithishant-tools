@@ -1,0 +1,47 @@
+# Robots.txt for Omni - All-in-One Utility Tools
+# This file helps search engines understand how to crawl and index the website
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Disallow crawling of certain paths (if any sensitive content)
+# Uncomment if needed:
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /api/
+
+# Disallow indexing of common admin/debug paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.env
+
+# Allow crawling of assets and static files
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Sitemap location (update this with your actual domain)
+Sitemap: https://my-tool-hub.com/sitemap.xml
+
+# Crawl delay to be respectful to server resources
+Crawl-delay: 1
+
+# Request interval (time between requests in seconds)
+Request-rate: 1/1s
